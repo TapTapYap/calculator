@@ -27,16 +27,19 @@
 
 .numContainer {
     display: flex;
-    flex: 2;
+
     flex-wrap: wrap;
     border: 1px solid black;
     padding: 10px;
     justify-content: space-between;
 }
 
+.numBtn {
+    padding: 5px;
+}
+
 .operatorsContainer {
     display: flex;
-    flex: 1;
     flex-direction: column;
     flex-wrap: wrap;
     border: 1px solid black;
