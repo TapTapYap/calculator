@@ -21,29 +21,38 @@
     align-items: center;
     flex: 1;
     padding: 10px;
-    max-width: 650px;
-    max-height: 750px;
+    width: 500px;
+    height: 750px;
 }
 
 .numContainer {
     display: flex;
-
     flex-wrap: wrap;
     border: 1px solid black;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .numBtn {
-    padding: 5px;
+    height: 100px;
+    width: 100px;
+    font-size: large;
+    margin: 5px;
 }
 
 .operatorsContainer {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     border: 1px solid black;
     padding: 10px;
+}
+
+.opBtn {
+    font-size: large;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
 }
 
 .displayContainer {
@@ -56,5 +65,5 @@
     border: 1px solid black;
     display: flex;
     flex: 1;
-    min-height: 25px;
+    min-height: 50px;
 }
