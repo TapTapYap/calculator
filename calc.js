@@ -13,6 +13,9 @@ divideBtn.addEventListener('click', divide());
 let equalsBtn = document.querySelector('.equalsBtn');
 equalsBtn.addEventListener('click', operate());
 
+let clearBtn = document.querySelector('clearBtn');
+clearBtn.addEventListener('click', clear());
+
 // Performs addition on the values it is given.
 
 function add() {
