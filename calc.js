@@ -4,6 +4,11 @@ addBtn.addEventListener('click', add());
 let subtractBtn = document.querySelector('.subtractBtn');
 subtractBtn.addEventListener('click', subtract());
 
+let multiplyBtn = document.querySelector('.multiplyBtn');
+multiplyBtn.addEventListener('click', multiply());
+
+
+
 // Performs addition on the values it is given.
 
 function add() {
