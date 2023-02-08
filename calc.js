@@ -10,7 +10,8 @@ multiplyBtn.addEventListener('click', multiply());
 let divideBtn = document.querySelector('.divideBtn');
 divideBtn.addEventListener('click', divide());
 
-
+let equalsBtn = document.querySelector('.equalsBtn');
+equalsBtn.addEventListener('click', operate());
 
 // Performs addition on the values it is given.
 
