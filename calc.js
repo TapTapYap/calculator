@@ -7,6 +7,9 @@ subtractBtn.addEventListener('click', subtract());
 let multiplyBtn = document.querySelector('.multiplyBtn');
 multiplyBtn.addEventListener('click', multiply());
 
+let divideBtn = document.querySelector('.divideBtn');
+divideBtn.addEventListener('click', divide());
+
 
 
 // Performs addition on the values it is given.
