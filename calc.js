@@ -1,4 +1,5 @@
-
+let addBtn = document.querySelector('.addBtn');
+addBtn.addEventListener('click', add());
 
 // Performs addition on the values it is given.
 
