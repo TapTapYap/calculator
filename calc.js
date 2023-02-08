@@ -1,6 +1,9 @@
 let addBtn = document.querySelector('.addBtn');
 addBtn.addEventListener('click', add());
 
+let subtractBtn = document.querySelector('.subtractBtn');
+subtractBtn.addEventListener('click', subtract());
+
 // Performs addition on the values it is given.
 
 function add() {
