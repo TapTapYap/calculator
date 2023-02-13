@@ -1,3 +1,9 @@
+// Operator buttons from HTML are connected to variables and assigned an event listener
+// that calls a function when they are clicked.
+
+const operationButtons = document.querySelectorAll('.opBtn');
+const numberButtons = document.querySelectorAll('.numBtn');
+
 let addBtn = document.querySelector('.addBtn');
 addBtn.addEventListener('click', add());
 
@@ -13,13 +19,13 @@ divideBtn.addEventListener('click', divide());
 let equalsBtn = document.querySelector('.equalsBtn');
 equalsBtn.addEventListener('click', operate());
 
-let clearBtn = document.querySelector('clearBtn');
+let clearBtn = document.querySelector('.clearBtn');
 clearBtn.addEventListener('click', clear());
 
 // Performs addition on the values it is given.
 
-function add() {
-
+function add(e) {
+    
 }
 
 // Performs subtraction on the values it is given.
