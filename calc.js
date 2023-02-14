@@ -4,22 +4,22 @@
 const operationButtons = document.querySelectorAll('.opBtn');
 const numberButtons = document.querySelectorAll('.numBtn');
 
-let addBtn = document.querySelector('.addBtn');
+const addBtn = document.querySelector('.addBtn');
 addBtn.addEventListener('click', add());
 
-let subtractBtn = document.querySelector('.subtractBtn');
+const subtractBtn = document.querySelector('.subtractBtn');
 subtractBtn.addEventListener('click', subtract());
 
-let multiplyBtn = document.querySelector('.multiplyBtn');
+const multiplyBtn = document.querySelector('.multiplyBtn');
 multiplyBtn.addEventListener('click', multiply());
 
-let divideBtn = document.querySelector('.divideBtn');
+const divideBtn = document.querySelector('.divideBtn');
 divideBtn.addEventListener('click', divide());
 
-let equalsBtn = document.querySelector('.equalsBtn');
+const equalsBtn = document.querySelector('.equalsBtn');
 equalsBtn.addEventListener('click', operate());
 
-let clearBtn = document.querySelector('.clearBtn');
+const clearBtn = document.querySelector('.clearBtn');
 clearBtn.addEventListener('click', clear());
 
 // Performs addition on the values it is given.
