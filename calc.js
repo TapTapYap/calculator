@@ -1,26 +1,13 @@
 // Operator buttons from HTML are connected to variables and assigned an event listener
 // that calls a function when they are clicked.
 
-const operationButtons = document.querySelectorAll('.opBtn');
-const numberButtons = document.querySelectorAll('.numBtn');
-
-const addBtn = document.querySelector('.addBtn');
-addBtn.addEventListener('click', add());
-
-const subtractBtn = document.querySelector('.subtractBtn');
-subtractBtn.addEventListener('click', subtract());
-
-const multiplyBtn = document.querySelector('.multiplyBtn');
-multiplyBtn.addEventListener('click', multiply());
-
-const divideBtn = document.querySelector('.divideBtn');
-divideBtn.addEventListener('click', divide());
-
-const equalsBtn = document.querySelector('.equalsBtn');
-equalsBtn.addEventListener('click', operate());
-
-const clearBtn = document.querySelector('.clearBtn');
-clearBtn.addEventListener('click', clear());
+const operationButtons = document.querySelectorAll('[data-operation]');
+const numberButtons = document.querySelectorAll('[data-number]');
+const equalsButton = document.querySelector('[data-equals]');
+const deleteButton = document.querySelector('[data-delete]');
+const allClearButton = document.querySelector('[data-clear]');
+const previousOperandTextElement = document.querySelector('[data-previous-operand]');
+const currentOperandTextElement = document.querySelector('[data-current-operand]');
 
 // Performs addition on the values it is given.
 
