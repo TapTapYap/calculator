@@ -1,3 +1,10 @@
+class Calculator {
+    constructor(previousOperandTextElement, currentOperandTextElement) {
+        this.previousOperandTextElement = previousOperandTextElement;
+        this.currentOperandTextElement = currentOperandTextElement;
+    }
+}
+
 // Operator buttons from HTML are connected to variables and assigned an event listener
 // that calls a function when they are clicked.
 
