@@ -3,6 +3,30 @@ class Calculator {
         this.previousOperandTextElement = previousOperandTextElement;
         this.currentOperandTextElement = currentOperandTextElement;
     }
+
+    clear () {
+
+    }
+
+    delete() {
+
+    }
+
+    appendNumber(number) {
+
+    }
+
+    chooseOperation(operation) {
+
+    }
+
+    compute() {
+
+    }
+
+    updateDisplay() {
+
+    }
 }
 
 // Operator buttons from HTML are connected to variables and assigned an event listener
