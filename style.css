@@ -17,53 +17,42 @@
 #numOpContainer {
     display: flex;
     border: 1px solid blue;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex: 1;
-    padding: 10px;
-    width: 500px;
-    height: 750px;
-}
-
-.numContainer {
-    display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
-    padding: 10px;
-    justify-content: space-evenly;
+    width: 400px;
+    height: 500px;
 }
 
 .numBtn {
-    height: 100px;
-    width: 100px;
     font-size: large;
-    margin: 5px;
-}
-
-.operatorsContainer {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    padding: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .opBtn {
     font-size: large;
-    justify-content: space-evenly;
     width: 100px;
-    height: 30px;
-    margin-top: 20px;
+    height: 100px;
+}
+
+#equals, #clear {
+    width: 200px;
 }
 
 .displayContainer {
     display: flex;
     flex: 1;
     padding: 5px;
+    justify-content: flex-end;
 }
+
 
 .calcDisplay {
     border: 1px solid black;
     display: flex;
+    justify-content: flex-end;
     flex: 1;
     min-height: 50px;
 }
